@@ -1,4 +1,4 @@
-#include <map>
+a#include <map>
 #include <string>
 #include <exception>
 
@@ -22,7 +22,7 @@ namespace Exceptions {
 			: runtime_error(Message) {}
 	};
 }
-
+//DNO RAIM
 template <class Resource> class ResourceManagerB {
 	typedef std::pair<URI, Resource*> ResourcePair;
 	typedef std::map<URI, Resource*> ResourceList;
