@@ -10,7 +10,7 @@
 class BoardGenerator : public QThread {
 
     Q_OBJECT
-
+// cDEM dMEO NO RUN
 public:
     BoardGenerator(QObject * parent = NULL) : QThread(parent) { }
     virtual ~BoardGenerator(void) { }
